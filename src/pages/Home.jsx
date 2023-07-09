@@ -11,7 +11,7 @@ export const Home = () => {
                 <h1>Welcome to Trip Advisor</h1>
                 <h2>Top Continents for your next holiday</h2>
             </div>
-            <div>
+            <div className="container">
                 {continents.map((continent) => (
                     <Link to={`/${continent.name}`} key={continent.id}>
                         <img src={continent.image} />

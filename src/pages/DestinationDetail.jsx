@@ -24,5 +24,6 @@ export const DestinationDetail = () => {
         <h3>Location: {currDestination.location}</h3>
         <h3>Opening hours: {currDestination.openingHours}</h3>
         <h3>Ticket Price: {currDestination.ticketPrice}</h3>
+        <a href={currDestination.website}>Website</a>
     </div>;
 };

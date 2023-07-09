@@ -16,7 +16,7 @@ export const Destinations = () => {
     return (
         <div>
             <h1>Top Destinations in {obj.country} for your next holiday</h1>
-            <div>
+            <div className="container">
                 {selectedCountryDestinations.map((destination) => (
                     <Link
                         to={`/${obj.continent}/${obj.country}/${destination.id}`}

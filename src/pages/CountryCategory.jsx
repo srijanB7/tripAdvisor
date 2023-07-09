@@ -10,7 +10,7 @@ export const CountryCategory = () => {
     //console.log(selectedContinet);
     return (
     <div><h1>Top Countries to visit in {continent.continent}</h1>
-        <div>
+        <div className="container">
             {
                 selectedContinetCountries.map((countries) => (
                     <Link to={`/${continent.continent}/${countries.name}`} key={countries.id}>
