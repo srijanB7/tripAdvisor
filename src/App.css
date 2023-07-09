@@ -1,0 +1,10 @@
+img {
+  width: 200px;
+}
+
+p {
+  position: relative;
+  bottom: 60px;
+  color: #fff;
+  left: 4px;
+}
